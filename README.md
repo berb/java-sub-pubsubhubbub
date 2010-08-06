@@ -1,10 +1,10 @@
-# pubsubhubbub-java
+# java-sub-pubsubhubbub
 
-A straight-forward publisher implementation written in Java for the PubSubHubBub 0.3 protocol.
+A straight-forward subscriber implementation written in Java for the PubSubHubBub 0.3 protocol.
 
 ## Features
 
-This is a simple publisher implementation written in Java that enables callback registration to feed changes. It internally uses the Apache HttpClient library for client-side requests and Eclipse Jetty as a lightweight internal webserver. For parsing Atom feeds, the ROME library is used. 
+This is a simple subscriber implementation written in Java that enables callback registration to feed changes. It internally uses the Apache HttpClient library for client-side requests and Eclipse Jetty as a lightweight internal webserver. For parsing Atom feeds, the ROME library is used. 
 
 ## Examples
 
