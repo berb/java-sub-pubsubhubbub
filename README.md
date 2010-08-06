@@ -8,7 +8,7 @@ This is a simple subscriber implementation written in Java that enables callback
 
 ## Examples
 
-	Subscriber subscriber = new SubscriberImpl("publisher-host",8888);
+	Subscriber subscriber = new SubscriberImpl("subscriber-host",8888);
 	Subscription subscription = subscriber.subscribe(URI.create("http://feed-host/my-push-enabled-feed.xml"));
 
 	subscription.setNotificationCallback(new NotificationCallback()
